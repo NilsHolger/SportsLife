@@ -1,0 +1,21 @@
+
+<carousel interval="interval">
+  <slide ng-repeat="slide in slides" active="slide.active">
+    <img class="carousel-image" ng-src="{{slide.image}}">
+    <div class="carousel-caption">
+      <h2>{{slide.title}}</h2>
+      <p>{{slide.text}}</p>
+    </div>
+  </slide>
+</carousel>
+<div class="hero-unit">
+  <h1>Welcome to Sports Life</h1>
+  <p>This is a demo of how to rapidly build a prototype using AngularJS, Angular UI and Bootstrap.</p>
+</div>
+<div class="row-fluid rMargins">
+  <div class="col-md-4 rCenter" ng-repeat="block in threeBlocks">
+    <img class="img-circle" ng-src="{{block.img}}">
+    <h3>{{block.title}}</h3>
+    <p>{{block.summary}}</p>
+  </div> 
+</div>

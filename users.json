@@ -1,0 +1,7 @@
+[
+{"id": "1","name":"Mary","loyalty":"7","dateJoined":"15/7/2014", "subscription": "Standard"},
+{"id": "2","name":"Bob","loyalty":"8","dateJoined":"2/6/2013", "subscription": "Free"},
+{"id": "3","name":"Mark","loyalty":"5","dateJoined":"29/11/2013", "subscription": "Standard"},
+{"id": "4","name":"Phillip","loyalty":"9","dateJoined":"1/4/2014", "subscription": "Premium"},
+{"id": "5","name":"Jane","loyalty":"2","dateJoined":"19/8/2013", "subscription": "Premium"}
+]

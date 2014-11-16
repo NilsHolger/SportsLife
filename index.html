@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sports Life</title>
+  <meta name="author" content="Nils-Holger Naegele" />
+  <meta name="keywords" content="angularjs, angularui, sportslife, rapid prototype"/>
+  <meta name="description" content="angularjs, angularui, sportslife, rapid prototype" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="favicon.ico" type="image/ico" />
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/ng-grid/ng-grid.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body ng-app="sportslifeApp">
+  <nav class="navbar navbar-inverse navbar-fixed top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Sports Life</a>
+      <ul class="nav navbar-nav">
+        <li><a href="/#/articles">Articles</a>
+        </li>
+        <li><a href="/#/gallery">Gallery</a>
+        </li>
+        <li><a href="/#/users">Users</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container" ng-view=""></div>
+
+  <div class="footer">
+  <p><span class="glyphicon glyphicon-heart"></span> from the Superheroes team</p>
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/ng-grid/ng-grid-2.0.14.min.js"></script>
+
+  <!-- build:js({.tmp,app}) scripts/scripts.js -->
+  <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/main.js"></script>
+  <script src="scripts/controllers/about.js"></script>
+  <script src="scripts/controllers/articles.js"></script>
+  <script src="scripts/controllers/gallery.js"></script>
+  <script src="scripts/controllers/users.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

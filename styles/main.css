@@ -1,0 +1,51 @@
+
+.carousel-image {
+  width: 100%;
+}
+.hero-unit {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 60px;
+}
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.rMargins {
+  margin-top:20px;
+}
+.rCenter {
+  text-align: center;
+}
+.thumbnails img {
+  width: 100%;
+}
+.gridStyles {
+  width:940px;
+  height:300px;
+}
+
+.ngRow.even {
+  background: AliceBlue;
+}
+.ngRow.odd {
+  background: YellowGreen;
+}
+
+.modal-body input {
+  display: block;
+}
+
+.ng-valid {
+  border: thin solid #090;
+}
+
+.ng-invalid {
+  border: thin solid #990000;
+}
